@@ -20,6 +20,7 @@ use tokio_util::codec::FramedWrite;
 mod codec;
 mod logging;
 pub mod messages;
+pub mod primitives;
 
 #[macro_use]
 extern crate serde_json;
